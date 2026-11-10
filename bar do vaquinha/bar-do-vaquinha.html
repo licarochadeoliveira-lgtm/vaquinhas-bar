@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bar do Vaquinha, tradição em Guararapes-SP. Variedade, bom atendimento e aquele ponto de encontro em frente à ETEC.">
+  <title>Bar do Vaquinha | Guararapes - SP</title>
+  <style>
+    :root{--brown:#382116;--cream:#fff8ec;--gold:#e5a83b;--orange:#c96c2b;--ink:#30251e}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+    header{background:var(--brown);color:#fff;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+    .brand{font-size:1.45rem;font-weight:900;letter-spacing:.4px}.brand span{color:var(--gold)}
+    nav{display:flex;gap:22px;flex-wrap:wrap}nav a{color:#fff;text-decoration:none;font-weight:700;font-size:.95rem}
+    nav a:hover{color:var(--gold)}
+    .hero{min-height:490px;padding:80px 7%;display:flex;align-items:center;background:linear-gradient(90deg,rgba(35,19,11,.92),rgba(35,19,11,.58)),linear-gradient(135deg,#754322,#d18b3e);color:#fff}
+    .hero-content{max-width:720px}.eyebrow{color:var(--gold);font-weight:800;text-transform:uppercase;letter-spacing:2px}
+    h1{font-size:clamp(2.7rem,7vw,5rem);line-height:1.04;margin:12px 0 20px}
+    .hero p{font-size:1.2rem;max-width:620px;color:#f8ead8}
+    .button{display:inline-block;background:var(--gold);color:#2b1b11;padding:13px 22px;border-radius:7px;text-decoration:none;font-weight:800;margin-top:14px}
+    section{padding:66px 7%}.section-title{text-align:center;margin:0 auto 34px;max-width:700px}
+    h2{font-size:clamp(1.9rem,4vw,2.7rem);color:var(--brown);margin:0 0 10px}
+    .section-title p{margin:0;color:#6f5d50}
+    .story{max-width:850px;margin:auto;text-align:center;font-size:1.1rem}
+    .products{background:#f2e4cf}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px;max-width:1000px;margin:auto}
+    .item{background:#fffaf2;border:1px solid #ead8bd;border-radius:12px;padding:24px 16px;text-align:center;box-shadow:0 5px 16px #4a2c1710}
+    .item .emoji{font-size:2.2rem}.item h3{margin:8px 0 0;color:var(--brown)}
+    .info{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;max-width:950px;margin:auto}
+    .info article{background:#fff;border-radius:12px;padding:26px;border-left:5px solid var(--orange)}
+    .info h3{margin:0 0 8px;color:var(--brown)}
+    .closing{background:var(--brown);color:#fff;text-align:center}.closing h2{color:#fff}.closing p{max-width:700px;margin:0 auto;color:#f2dfc8}
+    footer{background:#24150e;color:#d9c6b3;text-align:center;padding:22px 7%;font-size:.9rem}
+    @media(max-width:600px){header{justify-content:center;text-align:center}nav{justify-content:center;gap:14px}.hero{padding-top:65px;padding-bottom:65px;min-height:420px}section{padding:52px 6%}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">🐮 BAR DO <span>VAQUINHA</span></div>
+    <nav aria-label="Navegação principal">
+      <a href="#sobre">Nossa história</a><a href="#cardapio">Variedades</a><a href="#visite">Visite-nos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="eyebrow">Tradição e amizade em Guararapes</div>
+        <h1>Bar do Vaquinha</h1>
+        <p>Há muitos anos fazendo parte da rotina de Guararapes. Um lugar de encontro, variedade e atendimento com respeito e atenção para todos.</p>
+        <a class="button" href="#visite">Venha nos conhecer</a>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="section-title"><h2>Um ponto de encontro de Guararapes</h2></div>
+      <div class="story">
+        <p>Localizado em frente à ETEC, na Rua José Dalla Pria, o Bar do Vaquinha recebe diariamente pessoas de diferentes idades e histórias.</p>
+        <p>Ao longo do dia, passam por aqui moradores e clientes de vários perfis. À tarde e no fim do expediente, recebemos também trabalhadores que fazem uma pausa na rotina. À noite, somos ponto de encontro dos alunos da ETEC durante o intervalo dos cursos noturnos.</p>
+        <p>Temos orgulho do nosso público fiel, que está presente no dia a dia. Nosso compromisso é oferecer sempre um atendimento de qualidade, com respeito, atenção e carinho por cada pessoa que chega.</p>
+      </div>
+    </section>
+
+    <section class="products" id="cardapio">
+      <div class="section-title">
+        <h2>Tem sempre uma opção para você</h2>
+        <p>Uma variedade de produtos para acompanhar sua pausa e deixar o dia mais gostoso.</p>
+      </div>
+      <div class="grid">
+        <article class="item"><div class="emoji">🥜</div><h3>Amendoins</h3></article>
+        <article class="item"><div class="emoji">🥨</div><h3>Salgadinhos</h3></article>
+        <article class="item"><div class="emoji">🥤</div><h3>Bebidas</h3></article>
+        <article class="item"><div class="emoji">🧃</div><h3>Refrigerantes</h3></article>
+        <article class="item"><div class="emoji">🍬</div><h3>Doces</h3></article>
+        <article class="item"><div class="emoji">🍞</div><h3>Pão</h3></article>
+      </div>
+    </section>
+
+    <section id="visite">
+      <div class="section-title"><h2>Estamos esperando por você!</h2><p>Faça uma pausa, escolha seu lanche e aproveite nosso atendimento.</p></div>
+      <div class="info">
+        <article><h3>📍 Endereço</h3><p>Rua José Dalla Pria<br>Em frente à ETEC<br>Guararapes – SP</p></article>
+        <article><h3>🕗 Funcionamento</h3><p>Todos os dias? Consulte no local.<br><strong>Das 8h às 21h</strong></p><small>Horário informado pelo estabelecimento.</small></article>
+        <article><h3>🎓 Perto da ETEC</h3><p>Uma parada prática para alunos, especialmente no intervalo dos cursos noturnos, das 20h40 às 21h.</p></article>
+      </div>
+      <p style="text-align:center;margin-top:26px"><a class="button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rua+Jose+Dalla+Pria+Guararapes+SP">Ver localização no mapa</a></p>
+    </section>
+
+    <section class="closing">
+      <h2>Tradição que se constrói todos os dias.</h2>
+      <p>Bar do Vaquinha: variedade, amizade e respeito por todos os nossos clientes. Obrigado por fazer parte da nossa história!</p>
+    </section>
+  </main>
+  <footer>© <span id="year"></span> Bar do Vaquinha · Guararapes – SP</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
